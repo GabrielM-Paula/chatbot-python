@@ -1,0 +1,93 @@
+{
+  "intents": [
+    {
+      "tag": "saudacao",
+      "patterns": [
+        "oi", "olá", "ola", "ei", "hey", "opa",
+        "salve", "fala dev", "fala gamer", "tudo bem?", "como vai?"
+      ],
+      "responses": [
+        "Olá, gamer! Vamos falar sobre jogos?",
+        "Oi! Pronto para conversar sobre o mundo dos games?",
+        "Fala! Que jogos estás a jogar ultimamente?"
+      ]
+    },
+    {
+      "tag": "despedida",
+      "patterns": [
+        "tchau", "até logo", "adeus", "falou", "bye",
+        "até mais", "vou jogar", "fui"
+      ],
+      "responses": [
+        "Até logo! Boa jogatina!",
+        "Tchau! Volte sempre para falar de games.",
+        "Até mais! Bom jogo por aí!"
+      ]
+    },
+    {
+      "tag": "agradecimento",
+      "patterns": [
+        "obrigado", "obrigada", "valeu", "gg", "muito obrigado", "thanks"
+      ],
+      "responses": [
+        "De nada! GG WP!",
+        "Por nada! Precisando de dicas ou papo sobre games, é só chamar.",
+        "Tamo junto! Fico feliz em ajudar."
+      ]
+    },
+    {
+      "tag": "god_of_war",
+      "patterns": [
+        "god of war", "kratos", "gow", "fale sobre god of war",
+        "conhece god of war", "jogo do kratos"
+      ],
+      "responses": [
+        "God of War é uma das franquias mais aclamadas da PlayStation, focada na jornada de Kratos na mitologia grega e nórdica!",
+        "Kratos é o protagonista de God of War, uma saga incrível de ação e aventura."
+      ]
+    },
+    {
+      "tag": "the_last_of_us",
+      "patterns": [
+        "the last of us", "tlou", "joel e ellie", "fale sobre the last of us",
+        "conhece the last of us"
+      ],
+      "responses": [
+        "The Last of Us é uma franquia premiada da Naughty Dog sobre sobrevivência em um mundo pós-apocalíptico.",
+        "A emocionante história de Joel e Ellie em The Last of Us marcou a indústria dos games."
+      ]
+    },
+    {
+      "tag": "spider_man",
+      "patterns": [
+        "spider-man", "spider man", "homem aranha", "jogo do homem aranha",
+        "fale sobre spider man", "miles morales"
+      ],
+      "responses": [
+        "Marvel's Spider-Man é desenvolvido pela Insomniac Games com excelente jogabilidade de teia e combate incrível!",
+        "Os jogos do Spider-Man no PlayStation traz aventuras dinâmicas com Peter Parker e Miles Morales."
+      ]
+    },
+    {
+      "tag": "horizon",
+      "patterns": [
+        "horizon", "aloy", "zero dawn", "forbidden west", "fale sobre horizon"
+      ],
+      "responses": [
+        "Horizon é uma franquia fascinante da Guerrilla Games onde a caçadora Aloy explora um mundo dominado por máquinas dinossauro.",
+        "Aloy é a incrível protagonista da série Horizon (Zero Dawn e Forbidden West)."
+      ]
+    },
+    {
+      "tag": "recomendacao",
+      "patterns": [
+        "me indique um jogo", "qual jogo devo jogar?", "recomende um jogo",
+        "oque jogar hoje?", "dica de jogo"
+      ],
+      "responses": [
+        "Recomendo vivamente God of War, The Last of Us, Horizon Forbidden West ou Spider-Man 2!",
+        "Se você gosta de boa narrativa, tente The Last of Us ou God of War. Para exploração, Horizon!"
+      ]
+    }
+  ]
+}
